@@ -11,3 +11,12 @@ Hello, person1. My name is person2.
 
 
 """
+p1 = input("Please enter the name of person one.")
+p2 = input("Please enter the name of person two:")
+# Get input for the name of person one and person two - O'Hara
+
+my_string = "Hello, {0}. My name is {1}.".format(p1, p2)
+# Use .format to format string - O'Hara
+
+print (my_string)
+# Print string - O'Hara
